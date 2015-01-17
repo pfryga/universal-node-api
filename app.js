@@ -8,6 +8,7 @@ var exampleJson = [{"query":{"label":null,"params":"http://allegro.pl/listing/li
 
 app.get('/favouriteQueries/user/:id', function (req, res) {
     res.setHeader('Content-Type', 'application/json');
+    res.setHeader('Access-Control-Allow-Origin', 'http://localhost:8080');
     res.send(exampleJson);
 });
 
