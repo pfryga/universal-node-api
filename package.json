@@ -1,0 +1,23 @@
+{
+  "name": "universal-node-api",
+  "version": "1.0.0",
+  "description": "Universal API with NodeJS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pfryga/universal-node-api.git"
+  },
+  "author": "piotr.fryga@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pfryga/universal-node-api/issues"
+  },
+  "homepage": "https://github.com/pfryga/universal-node-api",
+  "dependencies": {
+    "express": "^4.11.0",
+    "request": "^2.51.0"
+  }
+}
